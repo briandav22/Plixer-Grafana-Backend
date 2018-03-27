@@ -6,8 +6,8 @@ import socket
 exporters = []
 
 try:
-    conn = psycopg2.connect(host="10.30.70.70", database="plixer",
-                            user="scrutremote", password="admin")
+    conn = psycopg2.connect(host="X.X.X.X", database="plixer",
+                            user="X.X.X.X", password="X.X.X.X")
 except:
     print "I am unable to connect to the database"
 
@@ -25,7 +25,7 @@ def convert_exporter(ipaddress):
 	return(converted_ip)
 
 
-print(convert_exporter('10.1.1.1'))
+
 
 
 
